@@ -28,8 +28,9 @@ first_country = first_country[0]
  return first_country
 end
 
-def last_element_with_array_methods
-  
+def last_element_with_array_methods(last_country)
+  last_country = last_country.last
+  return last_country
 end
 
 
